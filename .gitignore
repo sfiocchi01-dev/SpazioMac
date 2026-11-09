@@ -1,0 +1,28 @@
+# Generated builds and bundles
+.build/
+.swiftpm/
+dist/
+*.app/
+*.dSYM/
+*.xcarchive/
+*.zip
+
+# Local IDE/macOS state
+.DS_Store
+xcuserdata/
+*.xcuserstate
+
+# Local credentials and signing material
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.mobileprovision
+*.provisionprofile
+*.key
+*.pem
+
+# Local scan results / diagnostics: may contain private file names
+scan-results/
+diagnostics/
